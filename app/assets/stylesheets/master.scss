@@ -1,1 +1,16 @@
 @import "bootstrap";
+
+
+.navbar {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 500;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: image_url('wheat.png');
+  }
+
+  .navbar-light .navbar-brand {
+    color: #E1088F;
+    font-family: "Helvetica Neue", Helvetica;
+    font-weight: 500;
+
+  }
