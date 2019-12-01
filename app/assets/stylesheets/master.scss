@@ -1,16 +1,48 @@
 @import "bootstrap";
 
 
+body {
+  background: image_url('cork_1.png');
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+}
+
 .navbar {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 500;
+  background: image_url('cork_1.png');
   box-shadow: 0px 1px 3px #2a2a2a;
-  background: image_url('wheat.png');
-  }
+}
 
-  .navbar-light .navbar-brand {
-    color: #E1088F;
-    font-family: "Helvetica Neue", Helvetica;
-    font-weight: 500;
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
 
-  }
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
